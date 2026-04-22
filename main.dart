@@ -100,7 +100,7 @@ class MyHomeState extends State<MyHomePage>{
               return Container(
                 width: 100,
 
-                color: Colors.brown,
+                
                 child: OutlinedButton(onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) =>SecondScreen(), ));
                 }, child: Text('Login',style: TextStyle(fontSize: 18),)),
